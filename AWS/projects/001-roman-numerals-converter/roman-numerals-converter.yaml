@@ -52,9 +52,9 @@ Resources:
         pip3 install flask
         yum install git -y
         cd /home/ec2-user
-        wget -P templates https://raw.githubusercontent.com/AhmtFth35/son-guncel-repo/refs/heads/main/AWS/projects/001-roman-numerals-converter/templates/index.html
-        wget -P templates https://raw.githubusercontent.com/AhmtFth35/son-guncel-repo/refs/heads/main/AWS/projects/001-roman-numerals-converter/templates/result.html
-        wget https://raw.githubusercontent.com/AhmtFth35/son-guncel-repo/refs/heads/main/AWS/projects/001-roman-numerals-converter/roman-numerals-converter-app.py
+        wget -P templates https://raw.githubusercontent.com/AhmtFth35/Dev-Ops/refs/heads/main/AWS/projects/001-roman-numerals-converter/templates/index.html
+        wget -P templates https://raw.githubusercontent.com/AhmtFth35/Dev-Ops/refs/heads/main/AWS/projects/001-roman-numerals-converter/templates/result.html
+        wget https://raw.githubusercontent.com/AhmtFth35/Dev-Ops/refs/heads/main/AWS/projects/001-roman-numerals-converter/roman-numerals-converter-app.py
         python3 roman-numerals-converter-app.py
 
 Outputs:
